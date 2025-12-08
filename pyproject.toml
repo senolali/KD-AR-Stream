@@ -1,5 +1,23 @@
 [build-system]
-requires = ["setuptools", "wheel"]
+requires = ["setuptools>=61.0", "wheel", "setuptools_scm"]
 build-backend = "setuptools.build_meta"
 
+[project]
+name = "mcmststream"                    # PyPI'de görünecek isim (küçük harf)
+version = "1.0.4"
+description = "MCMSTStream: applying minimum spanning tree to KD-tree-based micro-clusters to define arbitrary-shaped clusters in streaming data"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Berfin Erdinç, Mahmut Kaya, Ali Şenol", email = "alisenol@tarsus.edu.tr" }]
+requires-python = ">=3.8"
+keywords = ["streaming", "clustering", "mst", "kd-tree", "mcmststream"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+]
 
+[project.urls]
+"Homepage" = "https://github.com/senolali/MCMSTStream"
+"Source" = "https://github.com/senolali/MCMSTStream"
+"Paper" = "https://doi.org/10.1007/s00521-024-09443-1"

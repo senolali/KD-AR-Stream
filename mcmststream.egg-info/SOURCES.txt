@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+mcmststream/__init__.py
+mcmststream/core.py
+mcmststream/utils.py
+mcmststream.egg-info/PKG-INFO
+mcmststream.egg-info/SOURCES.txt
+mcmststream.egg-info/dependency_links.txt
+mcmststream.egg-info/top_level.txt
+mcmststream/data/ExclaStar.txt
+tests/test_core.py

@@ -1,3 +1,26 @@
+Metadata-Version: 2.4
+Name: mcmststream
+Version: 1.0.4
+Summary: MCMSTStream: applying minimum spanning tree to KD-tree-based micro-clusters to define arbitrary-shaped clusters in streaming data
+Home-page: https://github.com/senolali/kd-ar-stream
+Author: Ali Şenol
+Author-email: "Berfin Erdinç, Mahmut Kaya, Ali Şenol" <alisenol@tarsus.edu.tr>
+License: MIT
+Project-URL: Homepage, https://github.com/senolali/MCMSTStream
+Project-URL: Source, https://github.com/senolali/MCMSTStream
+Project-URL: Paper, https://doi.org/10.1007/s00521-024-09443-1
+Keywords: streaming,clustering,mst,kd-tree,mcmststream
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
 [![PyPI version](https://badge.fury.io/py/mcmstclustering.svg)](https://badge.fury.io/py/mcmstclustering)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
