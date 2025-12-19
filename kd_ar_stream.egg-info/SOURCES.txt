@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+kd_ar_stream/__init__.py
+kd_ar_stream/core.py
+kd_ar_stream/utils.py
+kd_ar_stream.egg-info/PKG-INFO
+kd_ar_stream.egg-info/SOURCES.txt
+kd_ar_stream.egg-info/dependency_links.txt
+kd_ar_stream.egg-info/requires.txt
+kd_ar_stream.egg-info/top_level.txt
+kd_ar_stream/data/ExclaStar.txt
+tests/test_core.py
